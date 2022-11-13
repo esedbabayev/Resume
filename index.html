@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/apple-touch-icon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Resume</title>
+</head>
+<body>
+    <!-- header start -->
+    <header>
+        <aside class="side-bar">
+            <img class="pp" src="assets/images/profile.jpg" alt="pp">
+
+            <ul class="ul1">
+
+                <li><a class="a" href="#scroll">about</a></li> 
+                <li><a class="a" href="#scroll1">experience</a></li> 
+                <li><a class="a" href="#scroll2">education</a></li> 
+                <li><a class="a" href="#scroll3">skills</a></li> 
+                <li><a class="a" href="#scroll4">interest</a></li> 
+                <li><a class="a" href="#scroll5">awards</a></li> 
+                
+            </ul>
+        </aside>
+
+        <div class="about-div" id="scroll">
+            <div class="beginning">
+               <h1 class="h1"> CLARENCE <span class="color"> TAYLOR</span> </h1>
+               <p class="p1">3542 BERRY STREET · CHEYENNE WELLS, CO 80810 · (317) 585-8468 · <span class="color"> NAME@EMAIL.COM </span></p>
+               <p class="p2">  I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+               <ul class="icon-ul">
+                <li><a class="a2" href=""><img class="img" src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ic3ZnLWlubGluZS0tZmEgZmEtbGlua2VkaW4taW4iIGFyaWEtaGlkZGVuPSJ0cnVlIiBmb2N1c2FibGU9ImZhbHNlIiBkYXRhLXByZWZpeD0iZmFiIiBkYXRhLWljb249ImxpbmtlZGluLWluIiByb2xlPSJpbWciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDQ0OCA1MTIiIGRhdGEtZmEtaTJzdmc9IiI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMTAwLjMgNDQ4SDcuNFYxNDguOWg5Mi44OHpNNTMuNzkgMTA4LjFDMjQuMDkgMTA4LjEgMCA4My41IDAgNTMuOGE1My43OSA1My43OSAwIDAgMSAxMDcuNiAwYzAgMjkuNy0yNC4xIDU0LjMtNTMuNzkgNTQuM3pNNDQ3LjkgNDQ4aC05Mi42OFYzMDIuNGMwLTM0LjctLjctNzkuMi00OC4yOS03OS4yLTQ4LjI5IDAtNTUuNjkgMzcuNy01NS42OSA3Ni43VjQ0OGgtOTIuNzhWMTQ4LjloODkuMDh2NDAuOGgxLjNjMTIuNC0yMy41IDQyLjY5LTQ4LjMgODcuODgtNDguMyA5NCAwIDExMS4zIDYxLjkgMTExLjMgMTQyLjNWNDQ4eiIvPjwvc3ZnPg==" alt=""></a></li>
+                <li><a class="a2" href=""><img class="img" src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ic3ZnLWlubGluZS0tZmEgZmEtZ2l0aHViIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgZGF0YS1wcmVmaXg9ImZhYiIgZGF0YS1pY29uPSJnaXRodWIiIHJvbGU9ImltZyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNDk2IDUxMiIgZGF0YS1mYS1pMnN2Zz0iIj48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik0xNjUuOSAzOTcuNGMwIDItMi4zIDMuNi01LjIgMy42LTMuMyAuMy01LjYtMS4zLTUuNi0zLjYgMC0yIDIuMy0zLjYgNS4yLTMuNiAzLS4zIDUuNiAxLjMgNS42IDMuNnptLTMxLjEtNC41Yy0uNyAyIDEuMyA0LjMgNC4zIDQuOSAyLjYgMSA1LjYgMCA2LjItMnMtMS4zLTQuMy00LjMtNS4yYy0yLjYtLjctNS41IC4zLTYuMiAyLjN6bTQ0LjItMS43Yy0yLjkgLjctNC45IDIuNi00LjYgNC45IC4zIDIgMi45IDMuMyA1LjkgMi42IDIuOS0uNyA0LjktMi42IDQuNi00LjYtLjMtMS45LTMtMy4yLTUuOS0yLjl6TTI0NC44IDhDMTA2LjEgOCAwIDExMy4zIDAgMjUyYzAgMTEwLjkgNjkuOCAyMDUuOCAxNjkuNSAyMzkuMiAxMi44IDIuMyAxNy4zLTUuNiAxNy4zLTEyLjEgMC02LjItLjMtNDAuNC0uMy02MS40IDAgMC03MCAxNS04NC43LTI5LjggMCAwLTExLjQtMjkuMS0yNy44LTM2LjYgMCAwLTIyLjktMTUuNyAxLjYtMTUuNCAwIDAgMjQuOSAyIDM4LjYgMjUuOCAyMS45IDM4LjYgNTguNiAyNy41IDcyLjkgMjAuOSAyLjMtMTYgOC44LTI3LjEgMTYtMzMuNy01NS45LTYuMi0xMTIuMy0xNC4zLTExMi4zLTExMC41IDAtMjcuNSA3LjYtNDEuMyAyMy42LTU4LjktMi42LTYuNS0xMS4xLTMzLjMgMi42LTY3LjkgMjAuOS02LjUgNjkgMjcgNjkgMjcgMjAtNS42IDQxLjUtOC41IDYyLjgtOC41czQyLjggMi45IDYyLjggOC41YzAgMCA0OC4xLTMzLjYgNjktMjcgMTMuNyAzNC43IDUuMiA2MS40IDIuNiA2Ny45IDE2IDE3LjcgMjUuOCAzMS41IDI1LjggNTguOSAwIDk2LjUtNTguOSAxMDQuMi0xMTQuOCAxMTAuNSA5LjIgNy45IDE3IDIyLjkgMTcgNDYuNCAwIDMzLjctLjMgNzUuNC0uMyA4My42IDAgNi41IDQuNiAxNC40IDE3LjMgMTIuMUM0MjguMiA0NTcuOCA0OTYgMzYyLjkgNDk2IDI1MiA0OTYgMTEzLjMgMzgzLjUgOCAyNDQuOCA4ek05Ny4yIDM1Mi45Yy0xLjMgMS0xIDMuMyAuNyA1LjIgMS42IDEuNiAzLjkgMi4zIDUuMiAxIDEuMy0xIDEtMy4zLS43LTUuMi0xLjYtMS42LTMuOS0yLjMtNS4yLTF6bS0xMC44LTguMWMtLjcgMS4zIC4zIDIuOSAyLjMgMy45IDEuNiAxIDMuNiAuNyA0LjMtLjcgLjctMS4zLS4zLTIuOS0yLjMtMy45LTItLjYtMy42LS4zLTQuMyAuN3ptMzIuNCAzNS42Yy0xLjYgMS4zLTEgNC4zIDEuMyA2LjIgMi4zIDIuMyA1LjIgMi42IDYuNSAxIDEuMy0xLjMgLjctNC4zLTEuMy02LjItMi4yLTIuMy01LjItMi42LTYuNS0xem0tMTEuNC0xNC43Yy0xLjYgMS0xLjYgMy42IDAgNS45IDEuNiAyLjMgNC4zIDMuMyA1LjYgMi4zIDEuNi0xLjMgMS42LTMuOSAwLTYuMi0xLjQtMi4zLTQtMy4zLTUuNi0yeiIvPjwvc3ZnPg==" alt=""></a></li>
+                <li><a class="a2" href=""><img class="img" src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ic3ZnLWlubGluZS0tZmEgZmEtdHdpdHRlciIgYXJpYS1oaWRkZW49InRydWUiIGZvY3VzYWJsZT0iZmFsc2UiIGRhdGEtcHJlZml4PSJmYWIiIGRhdGEtaWNvbj0idHdpdHRlciIgcm9sZT0iaW1nIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBkYXRhLWZhLWkyc3ZnPSIiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTQ1OS40IDE1MS43Yy4zMjUgNC41NDggLjMyNSA5LjA5NyAuMzI1IDEzLjY1IDAgMTM4LjctMTA1LjYgMjk4LjYtMjk4LjYgMjk4LjYtNTkuNDUgMC0xMTQuNy0xNy4yMi0xNjEuMS00Ny4xMSA4LjQ0NyAuOTc0IDE2LjU3IDEuMjk5IDI1LjM0IDEuMjk5IDQ5LjA2IDAgOTQuMjEtMTYuNTcgMTMwLjMtNDQuODMtNDYuMTMtLjk3NS04NC43OS0zMS4xOS05OC4xMS03Mi43NyA2LjQ5OCAuOTc0IDEyLjk5IDEuNjI0IDE5LjgyIDEuNjI0IDkuNDIxIDAgMTguODQtMS4zIDI3LjYxLTMuNTczLTQ4LjA4LTkuNzQ3LTg0LjE0LTUxLjk4LTg0LjE0LTEwMi4xdi0xLjI5OWMxMy45NyA3Ljc5NyAzMC4yMSAxMi42NyA0Ny40MyAxMy4zMi0yOC4yNi0xOC44NC00Ni43OC01MS4wMS00Ni43OC04Ny4zOSAwLTE5LjQ5IDUuMTk3LTM3LjM2IDE0LjI5LTUyLjk1IDUxLjY1IDYzLjY3IDEyOS4zIDEwNS4zIDIxNi40IDEwOS44LTEuNjI0LTcuNzk3LTIuNTk5LTE1LjkyLTIuNTk5LTI0LjA0IDAtNTcuODMgNDYuNzgtMTA0LjkgMTA0LjktMTA0LjkgMzAuMjEgMCA1Ny41IDEyLjY3IDc2LjY3IDMzLjE0IDIzLjcyLTQuNTQ4IDQ2LjQ2LTEzLjMyIDY2LjYtMjUuMzQtNy43OTggMjQuMzctMjQuMzcgNDQuODMtNDYuMTMgNTcuODMgMjEuMTItMi4yNzMgNDEuNTgtOC4xMjIgNjAuNDMtMTYuMjQtMTQuMjkgMjAuNzktMzIuMTYgMzkuMzEtNTIuNjMgNTQuMjV6Ii8+PC9zdmc+" alt=""></a></li>
+                <li><a class="a2" href=""><img class="img" src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ic3ZnLWlubGluZS0tZmEgZmEtZmFjZWJvb2stZiIgYXJpYS1oaWRkZW49InRydWUiIGZvY3VzYWJsZT0iZmFsc2UiIGRhdGEtcHJlZml4PSJmYWIiIGRhdGEtaWNvbj0iZmFjZWJvb2stZiIgcm9sZT0iaW1nIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIiBkYXRhLWZhLWkyc3ZnPSIiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTI3OS4xIDI4OGwxNC4yMi05Mi42NmgtODguOTF2LTYwLjEzYzAtMjUuMzUgMTIuNDItNTAuMDYgNTIuMjQtNTAuMDZoNDAuNDJWNi4yNlMyNjAuNCAwIDIyNS40IDBjLTczLjIyIDAtMTIxLjEgNDQuMzgtMTIxLjEgMTI0Ljd2NzAuNjJIMjIuODlWMjg4aDgxLjM5djIyNGgxMDAuMlYyODh6Ii8+PC9zdmc+" alt=""></a></li>
+               </ul>
+            </div>
+            <hr class="hr1">
+        </div>
+        
+    </header>
+    <!-- header end -->
+
+    <!-- main start -->
+    <main>
+        <section class="sec1" id="scroll1">
+            <div>
+                <h2 class="experience">EXPERIENCE</h2>
+
+                <h3 class="h3-s">SENIOR WEB DEVELOPER</h3>
+                <h4 class="h4-s">INTELITEC SOLUTIONS</h4>
+                <p class="s1p">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                
+
+                <h3 class="h3-s">WEB DEVELOPER</h3>
+                <h4 class="h4-s">INTELITEC SOLUTIONS</h4>
+                <p class="s1p">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                
+
+                <h3 class="h3-s">JUNIOR WEB DESIGNER</h3>
+                <h4 class="h4-s">SHOUT! MEDIA PRODUCTIONS</h4>
+                <p class="s1p">Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+
+
+                <h3 class="h3-s">WEB DESIGN INTERN</h3>
+                <h4 class="h4-s">SHOUT! MEDIA PRODUCTIONS</h4>
+                <p class="s1p">Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+
+                <hr class="hr1">
+            </div>
+        </section>
+
+        <!-- sec-1 end -->
+
+        <section class="sec-2" id="scroll2">
+            <div>
+                <h2 class="s2h2">EDUCATION</h2>
+
+                <h3 class="h3-s">UNIVERSITY OF COLORADO BOULDER</h3>
+                <h4 class="h4-s">BACHELOR OF SCIENCE</h4>
+                <p class="s1p">Computer Science - Web Development Track <br> GPA: 3.23</p>
+
+                <h3 class="h3-s">JAMES BUCHANAN HIGH SCHOOL</h3>
+                <h4 class="h4-s">TECHNOLOGY MAGNET PROGRAM</h4>
+                <p class="s1p">GPA: 3.56</p>
+
+                <hr class="hr1">
+        
+             </div>
+        </section>
+
+        <!-- sec-2 end -->
+
+        <section class="sec-3" id="scroll3">
+            <div>
+                <h2 class="skills">SKILLS</h2>
+
+                <h4 class="prog">PROGRAMMING LANGUAGES & TOOLS</h4>
+                
+                <h4 class="prog">WORKFLOW</h4>
+
+                <ul>
+                    <li>☑️ Mobile-First, Responsive Design</li>
+                    <li>☑️ Cross Browser Testing & Debugging</li>
+                    <li>☑️ Cross Functional Teams</li>
+                    <li>☑️ Agile Development & Scrum</li>
+                </ul>
+
+                <hr class="hr1">
+
+            </div>
+        </section>
+
+        <!-- sec-3 end -->
+
+        <section class="sec-4" id="scroll4">
+            <div>
+                <h2 class="interests">INTERESTS</h2>
+                <p class="apart">Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
+                    <br> <br> <br>
+                    When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+                </p>
+
+                <hr class="hr1">
+
+            </div>
+        </section>
+
+        <!-- sec-4 end -->
+
+        <section class="sec-5" id="scroll5">
+            <div>
+                <h2 class="awards">AWARDS & CERTIFICATIONS</h2>
+                <ul>
+                    <li>🏆 Google Analytics Certified Developer</li>
+                    <li>🏆 Mobile Web Specialist - Google Certification</li>
+                    <li>🏆 1 st Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
+                    <li>🏆 1 st Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
+                    <li>🏆 2 nd Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
+                    <li>🏆 1 st Place - James Buchanan High School - Hackathon 2006</li>
+                    <li>🏆 3 rd Place - James Buchanan High School - Hackathon 2005</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
